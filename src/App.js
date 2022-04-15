@@ -1,16 +1,12 @@
-import About from "./main/About";
-import Footer from "./main/Footer";
-import Header from "./main/Header";
-import Projects from "./main/Projects";
-
+import { Routes, Route } from "react-router-dom";
+import Index from "./main/Index";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Projects />
-      <About />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Index />} />
+      </Routes>
     </div>
   );
 }
