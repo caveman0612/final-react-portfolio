@@ -5,11 +5,11 @@ const Project = ({ title, githubLink, viewLink, listItems, idx }) => {
     <div className="accordion-item mb-3">
       <h2 className="accordion-header" id={`heading${idx}`}>
         <button
-          className="accordion-button"
+          className="accordion-button bg-white"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target={`#collapse${idx}`}
-          aria-expanded="true"
+          aria-expanded="false"
           aria-controls={`collapse${idx}`}
         >
           {title}

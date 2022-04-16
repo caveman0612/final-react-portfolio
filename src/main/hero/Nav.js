@@ -1,11 +1,21 @@
 import React from "react";
+import image from "../../assets/avatar.png";
 
 const Nav = () => {
   return (
     <div>
       {" "}
-      <nav className="d-flex p-3 bg-info">
-        <h1 className="h2 me-auto text-dark">Kyle Stinar</h1>
+      <nav className="d-flex p-3 bg-info align-items-center">
+        <a href="/" className="me-auto">
+          <img
+            src={image}
+            alt="avatar"
+            className={`ms-3 rounded-pill `}
+            width="40px"
+          />
+        </a>
+
+        {/* <h1 className="h2 me-auto text-dark">Kyle Stinar</h1> */}
         <ul className="nav">
           <li className="nav-item">
             <a className="nav-link link-dark" href="#projects">

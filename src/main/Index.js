@@ -1,8 +1,9 @@
 import React from "react";
 import About from "./About";
-import Footer from "./Footer";
+import Contact from "./Contact";
 import Header from "./hero/Header";
 import Projects from "../Projects/Projects";
+import Footer from "./Footer";
 
 const Index = () => {
   return (
@@ -10,6 +11,7 @@ const Index = () => {
       <Header />
       <Projects />
       <About />
+      <Contact />
       <Footer />
     </div>
   );

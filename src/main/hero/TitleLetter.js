@@ -12,16 +12,16 @@ const TitleLetter = ({ letter }) => {
   const space = letter === " " ? "me-3" : null;
   const hoverStyles = hover ? "text-info display-1 fw-bolder" : " display-3";
   return (
-    <div>
-      <span
-        className={`${hoverStyles} ${space} pe-auto fw-bold`}
-        style={{ transition: "0.1s", cursor: "pointer" }}
-        onMouseEnter={activateHover}
-        onMouseLeave={deactivateHover}
-      >
-        {letter}
-      </span>
-    </div>
+    // <div>
+    <span
+      className={`${hoverStyles} ${space} pe-auto fw-bold`}
+      style={{ transition: "0.1s", cursor: "pointer" }}
+      onMouseEnter={activateHover}
+      onMouseLeave={deactivateHover}
+    >
+      {letter}
+    </span>
+    // </div>
   );
 };
 
