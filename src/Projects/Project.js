@@ -1,6 +1,6 @@
 import React from "react";
 
-const Project = ({ title, githubLink, viewLink, listItems, idx }) => {
+const Project = ({ title, githubLink, viewLink, listItems, tech, idx }) => {
   return (
     <div className="accordion-item mb-3">
       <h2 className="accordion-header" id={`heading${idx}`}>
@@ -21,8 +21,8 @@ const Project = ({ title, githubLink, viewLink, listItems, idx }) => {
         aria-labelledby={`heading${idx}`}
         data-bs-parent={`accordionExample`}
       >
-        <div className="accordion-body">
-          <div className="ms-4">
+        <div className="accordion-body pe-3">
+          <div className=" text-center">
             <a
               className="ps-2"
               href={githubLink}
@@ -37,11 +37,24 @@ const Project = ({ title, githubLink, viewLink, listItems, idx }) => {
             </a>
           </div>
 
-          <ul>
-            {listItems.map((item, idx) => (
-              <li key={idx}>{item}</li>
-            ))}
-          </ul>
+          <div className="container row">
+            <div className="col-8">
+              <h3 className="text-center">Description</h3>
+              <ul>
+                {listItems.map((item, idx) => (
+                  <li key={idx}>{item}</li>
+                ))}
+              </ul>
+            </div>
+            <div className="col-4 ps-5">
+              <h3 className="h4">Languages/Tech Used</h3>
+              <ul className="">
+                {tech.map((item, idx) => (
+                  <li key={idx}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
