@@ -1,0 +1,35 @@
+"Library Application | Link
+• Assembled the functionality for an application that allows users to search, review and check out books from their local neighborhood.
+• Created search and sorting functions to allow users to know what books were available and their rating.
+• Utilized with native JavaScript and architected with ES6 modules.
+Technology: HTML5, CSS with Bootstrap, JavaScript ES6
+
+Restaurant Reservation Application | Link
+• Full stack reservation and table management system.
+• Frontend as a single-page application (SPA) using React Router for view navigation
+• NodeJS/Express powering a RESTful API as a data service for the Frontend with PostgreSQL used as the persistent storage layer.
+• Knex library used as a query builder and protection from SQL injection, implemented in all CRUD functions.
+• Used Git to track feature changes while keeping sensitive information from being stored in repositories.
+Technology: React, Node.js, Express, Knex and PostgreSQL.
+
+Movie Database Application | Link
+• Assembled the backend of a movie website allowing any user to search for their favorite movies.
+• Set up CRUD methods for all resources, including theaters, movies, and reviews.
+• Applied encapsulated controller functions to feed to separately instanced router modules as part of a scalable architecture
+Technology: Node.js, Express, and Knex. Version control with Git.
+
+Study Tool Application | Link
+• Created a frontend application that allows users to create, edit, delete, and study decks and cards within them.
+• Defined frontend routes with React Router, syncing each new view to prevent stale data
+Technology: JavaScript, React, React Router, HTML and CSS. Version control with Git.
+
+Encryption/Decryption Application | Link
+• Built to be an encryption/decryption application to communicate and read top-secret messages.
+• Created utilizing the test-driven development method.
+Technology: JavaScript ES6, HTML5, CSS with Bootstrap, Jest.
+
+Pomodoro Timer Application | Link
+• Designed to be a great study tool enabling a user to set a focus duration and a break duration.
+• Implementing the single-use principle within its multiple React components.
+Technology:  HTML5, CSS with Bootstrap, JavaScript, React
+"

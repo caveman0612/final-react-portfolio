@@ -35,7 +35,7 @@ const Projects = () => {
           "JavaScript ES6",
           "React",
           "React Beautiful Dnd",
-          "HTML5/CSS/3",
+          "HTML5/CSS3",
           "Bootstrap",
           "Redux/Redux-toolkit",
         ]}
@@ -49,7 +49,25 @@ const Projects = () => {
           "Searches weather using the open weather map api.",
           "Can search by city, zip code and latitude/longitude.",
           "Designed UI with bootstrap to allow for responsive design.",
-          "",
+        ]}
+        tech={[
+          "JavaScript ES6",
+          "React",
+          "HTML5",
+          "CSS3",
+          "Bootstrap",
+          "Git/Github",
+        ]}
+      />
+      <Project
+        idx="4"
+        title="Restaurant Reservation Application"
+        githubLink="https://github.com/caveman0612/weather-app-react"
+        viewLink="https://weather-app-react-kappa.vercel.app/"
+        listItems={[
+          "Searches weather using the open weather map api.",
+          "Can search by city, zip code and latitude/longitude.",
+          "Designed UI with bootstrap to allow for responsive design.",
         ]}
         tech={[
           "JavaScript ES6",
@@ -75,29 +93,7 @@ const Projects = () => {
           "React Router",
         ]}
       />
-      <Project
-        idx="4"
-        title="Restaurant Reservation Application"
-        githubLink="https://github.com/caveman0612/weather-app-react"
-        viewLink="https://weather-app-react-kappa.vercel.app/"
-        listItems={[
-          "Searches weather using the open weather map api.",
-          "Can search by city, zip code and latitude/longitude.",
-          "Designed UI with bootstrap to allow for responsive design.",
-          "",
-        ]}
-        tech={[
-          "JavaScript ES6",
-          "React",
-          "HTML5",
-          "CSS3",
-          "Bootstrap",
-          "Git/Github",
-        ]}
-      />
-      {/* </div> */}
     </div>
-    // </div>
   );
 };
 

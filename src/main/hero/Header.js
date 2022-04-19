@@ -1,19 +1,9 @@
 import React, { useState } from "react";
-import Tilt from "react-tilt";
-
 import Nav from "./Nav";
 import TitleLetter from "./TitleLetter";
+import Pong from "../pong.js/Pong";
 
 const Header = () => {
-  const [hover, setHover] = useState(false);
-  //   function activateHover() {
-  //     setHover(true);
-  //   }
-  //   function deactivateHover() {
-  //     setHover(false);
-  //   }
-
-  const hoverEffect = hover ? "border border-4 border-info" : "";
   return (
     <div className="" style={{}}>
       <Nav />
@@ -29,6 +19,7 @@ const Header = () => {
           </div>
           <p className="h6 text-muted">Software Developer</p>
         </div>
+        {/* <Pong /> */}
       </div>
     </div>
   );
