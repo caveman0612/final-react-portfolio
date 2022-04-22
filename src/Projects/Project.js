@@ -49,7 +49,7 @@ const Project = ({ title, githubLink, viewLink, listItems, tech, idx }) => {
             <div className="col-4 ps-5">
               <h3 className="h4">Languages/Tech Used</h3>
               <ul className="">
-                {tech.map((item, idx) => (
+                {tech.split(" ").map((item, idx) => (
                   <li key={idx}>{item}</li>
                 ))}
               </ul>

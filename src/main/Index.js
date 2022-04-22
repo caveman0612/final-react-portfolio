@@ -4,10 +4,12 @@ import Contact from "./Contact";
 import Header from "./hero/Header";
 import Projects from "../Projects/Projects";
 import Footer from "./Footer";
+import Nav from "./hero/Nav";
 
 const Index = () => {
   return (
     <div className="bg-light">
+      <Nav />
       <Header />
       <Projects />
       <About />

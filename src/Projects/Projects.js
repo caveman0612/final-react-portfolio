@@ -31,14 +31,9 @@ const Projects = () => {
           "Used Redux which allowed easy management of complex states.",
           "Implemented React Beautiful Drag and Drop to manipulate the folders and cards.",
         ]}
-        tech={[
-          "JavaScript ES6",
-          "React",
-          "React Beautiful Dnd",
-          "HTML5/CSS3",
-          "Bootstrap",
-          "Redux/Redux-toolkit",
-        ]}
+        tech={
+          "JavaScript, React, HTML5, Bootstrap, Redux/Redux-toolkit, Vercel"
+        }
       />
       <Project
         idx="2"
@@ -50,16 +45,9 @@ const Projects = () => {
           "Can search by city, zip code and latitude/longitude.",
           "Designed UI with bootstrap to allow for responsive design.",
         ]}
-        tech={[
-          "JavaScript ES6",
-          "React",
-          "HTML5",
-          "CSS3",
-          "Bootstrap",
-          "Git/Github",
-        ]}
+        tech={"JavaScript, React, HTML5, Bootstrap, Git/Github, Vercel"}
       />
-      <Project
+      {/* <Project
         idx="4"
         title="Restaurant Reservation Application"
         githubLink="https://github.com/caveman0612/weather-app-react"
@@ -77,21 +65,20 @@ const Projects = () => {
           "Bootstrap",
           "Git/Github",
         ]}
-      />
+      /> */}
       <Project
         idx="3"
         title="Study Tool (flashCards) Application"
         githubLink="https://github.com/caveman0612/weather-app-react"
         viewLink="https://weather-app-react-kappa.vercel.app/"
-        listItems={["", "", "", ""]}
-        tech={[
-          "JavaScript ES6",
-          "React",
-          "HTML5",
-          "CSS3",
-          "Bootstrap",
-          "React Router",
+        listItems={[
+          "Created a frontend application that allows users to create, edit, delete, and study.",
+          "Defined frontend routes with React Router, syncing each new view to prevent stale data.",
+          "Implemented Redux to allow for management of complex states.",
         ]}
+        tech={
+          "JavaScript, React, HTML5, Bootstrap, React-Router, Redux, Heroku"
+        }
       />
     </div>
   );
