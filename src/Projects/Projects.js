@@ -51,8 +51,8 @@ const Projects = () => {
       <Project
         idx="3"
         title="Study Tool (flashCards) Application"
-        githubLink="https://github.com/caveman0612/weather-app-react"
-        viewLink="https://weather-app-react-kappa.vercel.app/"
+        githubLink="https://github.com/caveman0612/flash-card-app-v2"
+        viewLink="https://flash-card-app-v2.herokuapp.com/"
         listItems={[
           "Created a frontend application that allows users to create, edit, delete, and study.",
           "Defined frontend routes with React Router, syncing each new view to prevent stale data.",
