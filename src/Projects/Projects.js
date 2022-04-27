@@ -23,12 +23,12 @@ const Projects = () => {
       <div className="accordion" id={`accordionExample`}></div>
       <Project
         idx="1"
-        title="Todo Tracking Application (Trello Clone)"
+        title="Todo Tracking Application"
         githubLink="https://github.com/caveman0612/trello-app-ts-v4"
         viewLink="https://trello-app-ts-v4.vercel.app/"
         listItems={[
-          "Designed an app to make multiple folders with as many notes as needed.",
-          "Used Redux which allowed easy management of complex states.",
+          "Use folders and cards as a todo tracker for working with scrum or agile.",
+          "Uses Redux which allows easy management of complex states using reducers and dispatchers.",
           "Implemented React Beautiful Drag and Drop to manipulate the folders and cards.",
         ]}
         tech={
@@ -37,35 +37,17 @@ const Projects = () => {
       />
       <Project
         idx="2"
-        title="Weather Application"
+        title="Weather Data Display"
         githubLink="https://github.com/caveman0612/weather-app-react"
         viewLink="https://weather-app-react-kappa.vercel.app/"
         listItems={[
-          "Searches weather using the open weather map api.",
+          "Fetches weather data from the open weather map api.",
           "Can search by city, zip code and latitude/longitude.",
           "Designed UI with bootstrap to allow for responsive design.",
+          "Incorperated Typescript which allows for better stability",
         ]}
-        tech={"JavaScript, React, HTML5, Bootstrap, Git/Github, Vercel"}
+        tech={"TypeScript, React, HTML5, Bootstrap, Git/Github, Vercel"}
       />
-      {/* <Project
-        idx="4"
-        title="Restaurant Reservation Application"
-        githubLink="https://github.com/caveman0612/weather-app-react"
-        viewLink="https://weather-app-react-kappa.vercel.app/"
-        listItems={[
-          "Searches weather using the open weather map api.",
-          "Can search by city, zip code and latitude/longitude.",
-          "Designed UI with bootstrap to allow for responsive design.",
-        ]}
-        tech={[
-          "JavaScript ES6",
-          "React",
-          "HTML5",
-          "CSS3",
-          "Bootstrap",
-          "Git/Github",
-        ]}
-      /> */}
       <Project
         idx="3"
         title="Study Tool (flashCards) Application"
@@ -74,7 +56,7 @@ const Projects = () => {
         listItems={[
           "Created a frontend application that allows users to create, edit, delete, and study.",
           "Defined frontend routes with React Router, syncing each new view to prevent stale data.",
-          "Implemented Redux to allow for management of complex states.",
+          "Uses Redux which allows easy management of complex states using reducers and dispatchers.",
         ]}
         tech={
           "JavaScript, React, HTML5, Bootstrap, React-Router, Redux, Heroku"
