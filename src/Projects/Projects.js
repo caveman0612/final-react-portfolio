@@ -37,9 +37,9 @@ const Projects = () => {
       />
       <Project
         idx="2"
-        title="Weather Data Display"
-        githubLink="https://github.com/caveman0612/weather-app-react"
-        viewLink="https://weather-app-react-kappa.vercel.app/"
+        title="Weather Data Application"
+        githubLink="https://github.com/caveman0612/weather-app-ts-v2"
+        viewLink="https://weather-app-ts-v2.vercel.app/"
         listItems={[
           "Fetches weather data from the open weather map api.",
           "Can search by city, zip code and latitude/longitude.",
