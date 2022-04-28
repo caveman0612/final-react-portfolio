@@ -14,7 +14,7 @@ const TitleLetter = ({ letter }) => {
   return (
     <span
       className={`${hoverStyles} ${space} pe-auto fw-bold`}
-      style={{ transition: "0.1s", cursor: "pointer" }}
+      style={{ transition: "0.1s", cursor: "default" }}
       onMouseEnter={activateHover}
       onMouseLeave={deactivateHover}
     >

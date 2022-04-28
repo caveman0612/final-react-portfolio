@@ -19,21 +19,16 @@ const Header = () => {
           <p className="h6 text-muted">Software Developer</p>
           <div className="row mt-5 w-50 d-flex">
             <p className="text-center">
-              I am a software developer. I currently live in Tacoma WA. I love
-              everything about programming, and look forward to doing it for the
-              rest of my life.
+              Full-Stack software engineer proficient in using Javascript for
+              front-end and back-end programming. Strong background using React,
+              HTML, CSS, API implementing, Node.JS, Express, PostgreSQL, and
+              frameworks like Bootstrap.
+              <br />
+              <br />
+              Background as Sergeant in the army trained to solve problems on
+              the fly, adaptable to changing environments and comfortable
+              tackling new situations as they arise.
             </p>
-
-            <div className="">
-              <p className="text-center text-decoration-underline">
-                <b>Why I love Programming</b>
-              </p>
-              <ol className="ms-5" style={{}}>
-                <li>I enjoy solving puzzles.</li>
-                <li>I love to learning new things.</li>
-                <li>I like working with computers.</li>
-              </ol>
-            </div>
           </div>
         </div>
       </div>
