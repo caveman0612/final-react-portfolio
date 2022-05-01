@@ -3,6 +3,9 @@ import SpinningImage from "./SpinningImage";
 import TitleLetter from "./TitleLetter";
 
 const Header = () => {
+  const name = "Kyle Stinar".split("").map((letter, idx) => {
+    return <TitleLetter letter={letter} key={idx} />;
+  });
   return (
     <div className="border-bottom container" style={{}}>
       <div className="row mt-5" style={{ height: "80vh" }}>
@@ -12,9 +15,7 @@ const Header = () => {
             className="d-flex align-items-center"
             style={{ height: "100px" }}
           >
-            {"Kyle Stinar".split("").map((letter, idx) => {
-              return <TitleLetter letter={letter} key={idx} />;
-            })}
+            {name}
           </div>
           <p className="h6 text-muted">Software Developer</p>
           <div className="row mt-5 w-50 d-flex">

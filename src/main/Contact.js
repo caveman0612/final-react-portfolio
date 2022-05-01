@@ -4,15 +4,16 @@ import TitleLetter from "./hero/TitleLetter";
 import { AiTwotoneMail, AiFillPhone, AiFillLinkedin } from "react-icons/ai";
 
 const Contact = () => {
+  const contact = "Contact"
+    .split("")
+    .map((letter, idx) => <TitleLetter letter={letter} key={idx} />);
   return (
     <div id="contact" className="d-flex align-items-center flex-column pt-5">
       <div
         className="mb-5 d-flex justify-content-center"
         style={{ height: "70px" }}
       >
-        {"Contact".split("").map((letter, idx) => (
-          <TitleLetter letter={letter} key={idx} />
-        ))}
+        {contact}
       </div>
 
       <div className="d-flex flex-column justify-content-center">
@@ -31,7 +32,6 @@ const Contact = () => {
           className="me-1 btn"
           target="_blank"
           rel="noreferrer"
-          // style={{ color: "inherit", textDecoration: "inherit" }}
         >
           <BsGithub size={30} />
         </a>
@@ -44,11 +44,6 @@ const Contact = () => {
         >
           <AiFillLinkedin size={35} />
         </a>
-        {/* <a
-          href="/"
-          className="me-3"
-          style={{ color: "inherit", textDecoration: "inherit" }}
-        ></a> */}
       </div>
     </div>
   );

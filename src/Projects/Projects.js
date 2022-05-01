@@ -3,22 +3,17 @@ import Project from "./Project";
 import TitleLetter from "../main/hero/TitleLetter";
 
 const Projects = () => {
-  //   Recipe Application | GitHub
-  // Created an app to store recipes and information about those recipes.
-  // Used React to allow for dynamic adding and deleting of recipes.
-  // Designed and utilized the test-driven development method.
-  // Technology: React, JavaScript, Vercel.
+  const projects = "Projects"
+    .split("")
+    .map((letter, idx) => <TitleLetter letter={letter} key={idx} />);
 
   return (
-    // <div  style={{}} className="">
     <div
       id="projects"
       className="container d-flex flex-column border-bottom py-5"
     >
       <div className="d-flex mb-5 align-self-center" style={{ height: "70px" }}>
-        {"Projects".split("").map((letter, idx) => (
-          <TitleLetter letter={letter} key={idx} />
-        ))}
+        {projects}
       </div>
       <div className="accordion" id={`accordionExample`}></div>
       <Project
