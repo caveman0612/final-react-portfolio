@@ -8,7 +8,7 @@ const Header = () => {
   });
   return (
     <div className="border-bottom container" style={{}}>
-      <div className="row mt-5" style={{ height: "80vh" }}>
+      <div className="row mt-5" style={{}}>
         <div className="d-flex flex-column align-items-center   pb-5">
           <SpinningImage />
           <div
