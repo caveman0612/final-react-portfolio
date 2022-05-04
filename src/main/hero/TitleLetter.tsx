@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 
-const TitleLetter = ({ letter }) => {
+interface Iprop {
+  letter: string;
+}
+
+const TitleLetter = ({ letter }: Iprop) => {
   const [hover, setHover] = useState(false);
   function activateHover() {
     setHover(true);
